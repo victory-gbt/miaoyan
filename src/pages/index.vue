@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="top">
-      <div class="pageTitle">猫眼电影</div>
+      <div class="pageTitle">喵眼电影</div>
       <ul class="topNav">
         <li :class="[showHot==1?'active':'']" @click="showHot=1">正在热映</li>
         <li :class="[showHot==0?'active':'']" @click="showHot=0">即将上映</li>
